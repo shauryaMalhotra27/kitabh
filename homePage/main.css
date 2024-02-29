@@ -1,0 +1,28 @@
+.main{
+    font-family: Verdana;
+    font-weight: 300;
+    background: rgb(191, 226, 238);
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid 0.5px black;
+}
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    font-size: small;
+    margin: 15px 0 10px 0;
+}
+
+.cardView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
